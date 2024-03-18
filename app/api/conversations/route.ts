@@ -9,6 +9,7 @@ export async function POST(request: Request) {
         const {
             userId,
             isGroup,
+            // only if isGroup, when :
             members,
             name
         } = body;

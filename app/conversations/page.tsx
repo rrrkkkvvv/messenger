@@ -13,7 +13,9 @@ const Home = () => {
                 isOpen ? 'block' : 'hidden'
             )}
         >
+
             <EmptyState />
+
         </div>
     );
 };
